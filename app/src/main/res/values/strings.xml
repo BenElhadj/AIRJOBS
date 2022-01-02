@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Air Jobs</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_localisation">Maps</string>
+    <string name="title_findit">Find It</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_profil">Profil</string>
+
+    <string name="pdfDeposeCandidat">Déposer CV pdf</string>
+    <string name="pdfDeposeRecruteur">Déposer fiche de poste pdf</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Enregistrer</string>
+    <string name="access_permission_is_required">Permission is required</string>
+</resources>

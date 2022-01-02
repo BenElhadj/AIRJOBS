@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".ui.gestionConnexion.Creeuncompte">
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ailerons"
+        android:text="Crée un compte"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/emailEnregistrement"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round_main"
+        android:ems="10"
+        android:fontFamily="@font/orkney"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/orkney"
+        android:text="email incorrect"
+        android:textColor="#FF0000"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/nomEnregistrer"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_main"
+        android:ems="10"
+        android:fontFamily="@font/orkney"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/prenomEnregistrer"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_main"
+        android:ems="10"
+        android:fontFamily="@font/orkney"
+        android:hint="Prenom"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/motdepasse"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_main"
+        android:ems="10"
+        android:fontFamily="@font/orkney"
+        android:hint="mot de passe"
+        android:inputType="textPassword"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/orkney"
+        android:text="Mot de passe trop petit, doit avoir plus de 6 caractères"
+        android:textColor="#FF0000"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/motdepasse2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="@drawable/round_main"
+        android:ems="10"
+        android:fontFamily="@font/orkney"
+        android:hint="Confirmation de mot de passe"
+        android:inputType="textPassword"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/orkney"
+        android:text="le mot de passe n'est pas égale"
+        android:textColor="#FF0000"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnCreation"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFC107"
+        android:fontFamily="@font/orkney"
+        android:onClick="addcompte"
+        android:text="Ok"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>

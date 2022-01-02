@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_findit">
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.airjob.airjobs.ui.settings.SettingsFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_settings">
+        <action android:id="@+id/actionModifProfil"
+            app:destination="@id/navigation_profil" ></action>
+
+
+
+        <action android:id="@+id/actionGeoloc"
+            app:destination="@id/navigation_localisation" ></action>
+
+        <action android:id="@+id/actionFiltre"
+            app:destination="@id/navigation_findit" ></action>
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_localisation"
+        android:name="com.airjob.airjobs.ui.localisation.LocalisationFragment"
+        android:label="@string/title_localisation"
+        tools:layout="@layout/fragment_localisation" />
+
+    <fragment
+        android:id="@+id/navigation_findit"
+        android:name="com.airjob.airjobs.ui.findit.FinditFragment"
+        android:label="@string/title_findit"
+        tools:layout="@layout/fragment_findit">
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/navigation_profil" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.airjob.airjobs.ui.chat.Fragments.UsersFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chats" />
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.airjob.airjobs.ui.manageProfil.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

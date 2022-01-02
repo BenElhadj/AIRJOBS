@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248825084374",
+    "project_id": "airjobs-13de9",
+    "storage_bucket": "airjobs-13de9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248825084374:android:8657ee810787f5838dcc77",
+        "android_client_info": {
+          "package_name": "com.airjob.airjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248825084374-j22r255nv9k9r9go5b6r32e6nb1cri0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI7ZVHhA0FwzUZHXbTkn1Xncv6k_xGVHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248825084374-j22r255nv9k9r9go5b6r32e6nb1cri0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
